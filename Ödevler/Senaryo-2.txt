@@ -1,0 +1,20 @@
+Seneryo:
+Bir Satış Firması için veri tabanı hazırlanmak istenmektedir. İlgili Satış Firması, 
+Müşterilerinin; Adı, Soyadı, TC Numarası, Telefon Numarası, Adres bilgileri gibi bilgileri saklamak istemektedir. Aynı zamanda ilgili firma Müşterilerinin siparişlerinide tutmak istemektedir. 
+Siparişlerin; Ürün Kodu, Adeti gibi bilgileri olacaktır. 
+Müşterinin Adres Bilgileri; İl, ilçe, posta kodu gibi bilgiler olacaktır.
+
+
+Kurallar:
+	* Müşterilerin 1'den fazla adresi olabilir.
+	* Müşterinin sadece 1 adet numarası olabilir.
+	* Her müşterinin 1 adet TC numarası vardır ve benzersiz anahtardır.
+	* Müşteri istediği kadar ürün siparişi verebilir.
+
++ Olarak
+	* Sipariş Veren Müşterilerin Adını Bulunuz.
+	* Ürün Kodu 2004 Olan Bir Ürün Ekleyiniz ve bir sipariş oluşturunuz sonrasında eklediğiniz bu ürünü kim sipariş vermiş bulunuz.	
+	* İli istanbul olan 3 kayıt ekleyiniz. Ve İli istanbul olan bu 3 kaydın İlçesini Beyoğlu Yapınız.
+	* Adeti 5 den az olan 2 ürün ekleyiniz. O 2 ürünün adetini 4 yapınız.
+	* TC numarası 00000000000 olan bir müşteri ekleyiniz, eklediğiniz müşterinin siparişlerini bulunuz.
+
