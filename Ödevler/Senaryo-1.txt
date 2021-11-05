@@ -1,0 +1,23 @@
+/* 
+	Seneryo:
+	Bir yazılım firması için veri tabanı hazırlanmak istenmektedir. Lütfen istenilen tabloları ve tablo içersindeki nesneleri SQL sorgularıyla oluşturunuz.
+
+	Kurallar:
+		* Firmada çalışanlar mevcuttur. Çalışanların; Adı (boş olmaz),Soyadı (boş olmaz),Maaşı (en az 500 TL),Adresi,Telefon Numarası (11 karakter), çalıştıkları birim gibi bilgiler vardır.
+		* Firmada çalışanların kullandıkları bilgisayarların özellikleri tutulmaktadır. Bilgisayarların Mac adresi (unique), Ekran Kartı, İşlemci Modeli ve Ram Boyutu (en az 4) gibi bilgiler tutulmaktadır.
+
+	İpucu:
+		* Çalışanların birimleri ayrı bir tabloda tutulmalıdır.
+
+	İstenen: 
+		* Tabloları Oluşturun. (kod ile.)
+		* Tablolara 10 ar veri girişi yapın (insert sorgusu ile)
+		* 5 Farklı listeleme (select sorgusu)
+		* 5 farklı güncelleme yapın (update)
+		* maaşı 10 bin TL den az olanlara %5 zam yap.
+		* 5 farklı şekilde silme işlemi (WHERE ye bağlı olarak.)
+
+		Tüm bu kodları bana iletin :)
+
+
+*/
