@@ -1,4 +1,4 @@
-/* 
+
 	Seneryo:
 	Bir yazılım firması için veri tabanı hazırlanmak istenmektedir. Lütfen istenilen tabloları ve tablo içersindeki nesneleri SQL sorgularıyla oluşturunuz.
 
@@ -19,5 +19,3 @@
 
 		Tüm bu kodları bana iletin :)
 
-
-*/
