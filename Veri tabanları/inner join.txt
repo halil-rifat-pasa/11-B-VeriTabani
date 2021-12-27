@@ -1,0 +1,18 @@
+--_kutuphaneVT.bak dosyası.
+
+SELECT kitap_adi,kategori_adi,ISBN,yazar_adi,yazar_soyadi 
+FROM tbl_kitap_kategoriler
+
+INNER JOIN tbl_kategori 
+ON tbl_kategori.kategori_id_PK = tbl_kitap_kategoriler.kategori_id_FK
+
+INNER JOIN tbl_kitaplar 
+ON tbl_kitaplar.kitap_id_PK = tbl_kitap_kategoriler.kitap_id_FK
+
+INNER JOIN tbl_yazarlar_kitaplar
+ON tbl_yazarlar_kitaplar.kitap_id_FK = tbl_kitaplar.kitap_id_PK
+
+INNER JOIN tbl_yazarlar
+ON tbl_yazarlar.yazar_id_PK = tbl_yazarlar_kitaplar.yazar_id_FK
+
+WHERE yazar_adi = 'John'
